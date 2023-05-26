@@ -2,8 +2,12 @@ package week1.Question1;
 
 public class Madeleine {
 
-    //updates
+    public static String oddOrEven(int number) {
 
-    //hi
-
+        if (number % 2 == 0) {
+            return "Even";
+        } else {
+            return "Odd";
+        }
+    }
 }
