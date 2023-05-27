@@ -9,5 +9,6 @@ public class adrian {
         x = x + y;
 
         System.out.println(" x = " + x + "\n y = " + y);
+
     }
 }
