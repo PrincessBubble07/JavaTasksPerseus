@@ -1,0 +1,15 @@
+Write a return method that can reverse digits of a negative number
+and return it as int
+    input: -123  output: -321
+-----------------------------------------------------
+
+public  static void reverse(int num){
+        int reverse = 0;
+        while(num != 0)
+        {
+            int remainder = num % 10;
+            reverse = reverse * 10 + remainder;
+            num = num/10;
+        }
+      System.out.println( reverse);
+}
