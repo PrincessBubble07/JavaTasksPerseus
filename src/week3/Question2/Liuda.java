@@ -1,9 +1,7 @@
 package week3.Question2;
 
 public class Liuda {
-    public static void main(String[] args) {
 
-    }
 
     public static int ReverseNegativeNumber(int num){
 
@@ -27,4 +25,4 @@ public class Liuda {
     }
 
 }
-}
+

@@ -1,4 +1,5 @@
-package week3.Question2;
+package week3.Question1
+        ;
 
 public class Liuda {
     public static boolean PrimeOrNot(int number) {
