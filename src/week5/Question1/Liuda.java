@@ -40,7 +40,7 @@ public class Liuda {
 
             for (int i = 0; i < str.length(); i++) {
                 char ch1 = str.charAt(i);
-                if (ch1 == ch) {       //  if (str.charAt(i) == ch)
+                if (ch1 == ch) {       //  if (str.charAt(i) == str1.charAt(j))
                     count++;
 
                 }
@@ -52,6 +52,7 @@ public class Liuda {
         return result;
 
     }
+
 
     public static Map<Character, Integer> Unique(String str) {
 
