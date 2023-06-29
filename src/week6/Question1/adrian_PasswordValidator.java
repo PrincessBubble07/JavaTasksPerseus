@@ -13,7 +13,7 @@ public class adrian_PasswordValidator {
         }
 
         // Check if the password contains at least one uppercase letter
-        if (!password.matches(".*[A-Z].*")) {
+        if (!password.matches( ".*[A-Z].*")) {
             return false;
         }
 
