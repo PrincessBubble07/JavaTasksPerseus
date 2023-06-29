@@ -26,18 +26,18 @@ public class adrian_PasswordValidator {
         if (!password.matches(".*[@#$%^&+=].*")) {
             return false;
         }
-
         // Check if the password contains at least one digit
-        if (!password.matches(".*\\d.*")) {
+        if (!password.matches(".*[0-9].*")) {
             return false;
         }
+
 
         // If all requirements are met, return true
         return true;
     }
 
     public static void main(String[] args) {
-        String password = "Abc@123";
+        String password = "Abc@12";
         boolean isValid = isValidPassword(password);
         System.out.println("Is the password valid? " + isValid);
     }

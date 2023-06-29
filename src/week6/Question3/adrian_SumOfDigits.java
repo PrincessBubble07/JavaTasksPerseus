@@ -4,6 +4,7 @@ public class adrian_SumOfDigits {
     public static int calculateSumOfDigits(String input) {
         int sum = 0;
 
+        int number ;
         // Iterate over each character in the string
         for (int i = 0; i < input.length(); i++) {
             char c = input.charAt(i);
