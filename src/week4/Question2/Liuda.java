@@ -20,6 +20,10 @@ public class Liuda {
 
         public static boolean sameLetters(String str1, String str2) {
 
+              if (!(str1.length()==str2.length())){
+                  return false;
+              }
+
             char[] arr1 = str1.toCharArray();
             char[] arr2 = str2.toCharArray();
 
