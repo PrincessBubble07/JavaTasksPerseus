@@ -29,6 +29,7 @@ public class Osama {
             if (result.contains("" + ch)) {
                 continue;
             }
+
             result += ch + "" + frequency;
         }
         return result;

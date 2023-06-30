@@ -23,7 +23,7 @@ public class Felix {
     }
 
     public static void main(String[] args) {
-        System.out.println(method2("abc", "bca"));
+        System.out.println(method2("abc", "baa"));
     }
 
 }

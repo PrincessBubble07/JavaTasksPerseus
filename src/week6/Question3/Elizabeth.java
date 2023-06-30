@@ -7,9 +7,9 @@ public class Elizabeth {
 
 
 
-    public class SumDigitsInString {
+    // public class SumDigitsInString {
 
-        public static void main(String[] args) {
+       public static void main(String[] args) {
             Scanner in = new Scanner(System.in);
             System.out.print("Enter a string: "); // ask user for a string
             String s = in.nextLine(); // read string from user
@@ -27,4 +27,4 @@ public class Elizabeth {
 
 
 
-}
+
