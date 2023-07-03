@@ -20,7 +20,5 @@ public class Osama {
         return str1.equals(str2);
     }
 
-    public static void main(String[] args) {
-        System.out.println(sameLetters("osama", "amazo"));
-    }
+
 }
