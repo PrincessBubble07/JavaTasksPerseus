@@ -19,7 +19,7 @@ Not Use Sort Method) Ex: input: {1,0,2,0,3,0,4,0}; output: [1, 2, 3, 4, 0, 0, 0,
         int[] moved = new int[nums.length];
         int index = 0; // 1
 
-        for(int each : nums){ //  [5, 2, 1, 23, 0, 0, 0, 0]
+        for(int each : nums){ //
             if(each != 0){
                 moved[index++] = each;
             }
