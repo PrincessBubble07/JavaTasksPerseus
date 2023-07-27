@@ -39,3 +39,4 @@ public class Osama {
         System.out.println(Arrays.toString(sumZero(n)));
     }
 }
+
