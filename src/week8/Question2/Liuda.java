@@ -19,11 +19,21 @@ public class Liuda {
             return arr2;
         }
 
-
-
     public static void main(String[] args) {
         System.out.println(Arrays.toString(moveZeroToEnd(new int[]{-3,0,2,30,0,11,20,-7})));
+
+        System.out.println("Solution(5) = " + Arrays.toString(Solution(5)));
     }
 
+    public static int[] Solution(int N){
+        int[] result = new int[N];
+        int sum = 0;
+        for(int i=0; i < N-1; i++) {
+            result[i] =i;
+            sum += i;
+        }
+        result[N-1] = -sum;
+        return result;
+    }
 
 }
