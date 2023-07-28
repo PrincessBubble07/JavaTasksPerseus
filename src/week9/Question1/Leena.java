@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Leena {
     /*
     Array - Concat two arrays
-  Write a return method that can concate two arrays.
+  Write a return method that can concat two arrays.
      */
     public static void main(String[] args) {
         int[] array1 = {1, 2, 3};
