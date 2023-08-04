@@ -15,6 +15,7 @@ public class Liuda {
         int [] arr2 ={100,200,99,7,66,98,76};
 
         System.out.println(Arrays.toString(twoArraysConcat(arr1,arr2)));
+        System.out.println(Arrays.toString(twoArraysConcat(arr1,arr2)));
 
     }
 
@@ -22,15 +23,23 @@ public class Liuda {
 
         int [] arr3 = new int[arr1.length+ arr2.length];
         int index = 0;
-        for (int i = 0; i < arr1.length; i++) {
+       /* for (int i = 0; i < arr1.length; i++) {
             arr3[index]=arr1[i];
             index++;
         }
         for (int i = 0; i < arr2.length; i++) {
             arr3[index] = arr2[i];
             index++;
-        }
+        }*/
 
+        for (int num : arr1){
+            arr3[index] = num;
+            index++;
+        }
+        for (int num : arr2){
+            arr3[index] = num;
+            index++;
+        }
         return arr3;
     }
 
